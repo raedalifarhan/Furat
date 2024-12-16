@@ -1,12 +1,12 @@
-# fly.toml file generated for reactivities-course on 2022-12-04T14:03:10+07:00
+# fly.toml file generated for furat-course on 2022-12-04T14:03:10+07:00
 
-app = "reactivities-course"
+app = "furat-course"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
 
 [build]
-  image = "trycatchlearn/reactivities:latest"
+  image = "trycatchlearn/furat:latest"
 
 [env]
   ASPNETCORE_URLS="http://+:8080"
